@@ -1,0 +1,12 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "beyond-the-prompt-harness-auditor",
+  "description": "Deterministic AI Agent Harness AST Auditor & Loop Cost Calculator MCP Server (Companion to Beyond the Prompt by Jay Thorne).",
+  "Maintainers": [
+    {
+      "name": "Jay Thorne",
+      "email": "contact@digbijoylabs.com"
+    }
+  ],
+  "repository": "https://github.com/digbijoy-labs/beyond-the-prompt"
+}

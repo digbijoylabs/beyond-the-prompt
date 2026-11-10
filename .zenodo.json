@@ -1,0 +1,29 @@
+{
+  "title": "Beyond the Prompt: Reference Architectural Kernels & Deterministic AI Harness Auditor",
+  "upload_type": "software",
+  "description": "Reference architectural kernels, AST static codebase auditor, and Model Context Protocol (MCP) server for building deterministic production AI agents in Python 3.12+. Official companion repository for 'Beyond the Prompt: The Architecture of Autonomous Systems' by Jay Thorne (Digbijoy Labs Publications).",
+  "creators": [
+    {
+      "name": "Thorne, Jay",
+      "affiliation": "Digbijoy Labs Publications"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AI Agents",
+    "Model Context Protocol",
+    "MCP Server",
+    "Context Engineering",
+    "GraphRAG",
+    "Deterministic Statecharts",
+    "AI Safety",
+    "OpenTelemetry GenAI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.amazon.com/dp/B0HJZ1BY9P",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -4,14 +4,50 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "beyond-the-prompt"
-version = "1.0.0"
+version = "1.1.0"
 description = "Official Companion Code & Reference Architectural Kernels for Beyond the Prompt: The Architecture of Autonomous Systems by Jay Thorne"
 authors = [
-    { name = "Jay Thorne", email = "digbijoylabs@gmail.com" }
+    { name = "Jay Thorne", email = "contact@digbijoylabs.com" }
 ]
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12"
+keywords = [
+    "ai-agents",
+    "agentic-ai",
+    "autonomous-systems",
+    "context-engineering",
+    "graphrag",
+    "knowledge-graph",
+    "model-context-protocol",
+    "mcp",
+    "large-language-models",
+    "llm",
+    "reference-architecture",
+    "state-machines",
+    "execution-harness",
+    "sandboxing",
+    "human-in-the-loop",
+    "ai-governance",
+    "ai-safety",
+    "ai-observability",
+    "opentelemetry",
+    "pydantic",
+    "python",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: System :: Distributed Computing",
+    "Typing :: Typed",
+]
 dependencies = [
     "pydantic>=2.8.0",
     "pydantic-settings>=2.3.0",
@@ -19,6 +55,17 @@ dependencies = [
     "opentelemetry-api>=1.25.0",
     "opentelemetry-sdk>=1.25.0",
 ]
+
+
+[project.scripts]
+agent-harness-audit = "core.auditor.harness_auditor:main"
+agent-harness-mcp = "core.auditor.mcp_server:main"
+
+[project.urls]
+Homepage = "https://digbijoylabs.com"
+Repository = "https://github.com/digbijoy-labs/beyond-the-prompt"
+Issues = "https://github.com/digbijoy-labs/beyond-the-prompt/issues"
+Changelog = "https://github.com/digbijoy-labs/beyond-the-prompt/blob/main/ERRATA.md"
 
 [project.optional-dependencies]
 dev = [
