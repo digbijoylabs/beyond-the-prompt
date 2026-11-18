@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these reference architectural kernels, harness auditor, or attention sandbox, please cite the book and working paper."
+title: "Beyond the Prompt: The Architecture of Autonomous Systems"
+type: software
+authors:
+  - family-names: "Thorne"
+    given-names: "Jay"
+    affiliation: "Digbijoy Labs Publications"
+doi: "10.5281/zenodo.24100423"
+url: "https://digbijoylabs.com/books/beyond-the-prompt/"
+repository-code: "https://github.com/digbijoylabs/beyond-the-prompt"
+date-released: "2026-11-10"
+license: "MIT"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24100423"
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q142203106"
